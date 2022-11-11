@@ -1,6 +1,8 @@
-.mycuctombtn{
+.footerBtn{
     width: 120px;
     height: 40px;
     background-color: aqua;
     color: white;
+    margin: 40px;
+    cursor: pointer;
 }

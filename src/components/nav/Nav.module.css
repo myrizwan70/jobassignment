@@ -1,0 +1,91 @@
+.navWrapper{
+    background-color: white;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:40px;
+    padding-left: 40px;
+    border-bottom: 1px solid lightgray;
+    
+
+}
+
+.logo{
+    width: 20%;
+}
+
+.logo span{
+    font-size: 25px;
+    font-weight: bold;
+    color: #9034E0;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.menu{
+width: 80%;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 16px;
+    color: gray;
+    font-weight: 400;
+    font-family:'Rubik', sans-serif;
+    cursor: pointer;
+}
+
+.menu ul li.active{
+    color: #9034E0;
+}
+
+.menu ul li:first-child{
+    color: #9034E0;
+    font-weight: 400;
+}
+
+.btnWrapper{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+gap: 10px;
+
+}
+
+.loginBtn{
+  width: 120px;
+  height: 35px;
+  background-color: white;
+  color: #9034E0;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid #9034E0;
+  
+}
+
+.signupBtn{
+    width: 120px;
+    height: 35px;
+    background-color: #9034E0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.hamburger{
+    display: none;
+}

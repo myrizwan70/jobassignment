@@ -1,6 +1,6 @@
-.mycuctombtn{
+.button{
     width: 120px;
     height: 40px;
-    background-color: aqua;
+    background-color: red;
     color: white;
 }

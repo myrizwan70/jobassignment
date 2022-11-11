@@ -1,0 +1,31 @@
+
+.homeContainer{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.loadMore{
+margin-top: 20px;
+}
+
+.loadBtn{
+  width: 120px;
+  height: 35px;
+  background-color: white;
+  color: #9034E0;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid #9034E0;
+}
+
